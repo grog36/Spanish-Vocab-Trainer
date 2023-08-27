@@ -1,0 +1,72 @@
+/* Gregory Ecklund */
+/* August 2023 */
+
+/* Background Color */
+body {
+    background-color: orange;
+    height: 100%;
+    width: 100%;
+}
+
+/* Tips */
+.tips {
+    float: right;
+    color: black;
+    font-weight: bolder;
+    visibility: hidden;
+    font-size: 32px;
+}
+
+/* Start Button */
+.startButtonDiv {
+    text-align: center;
+}
+#startButton {
+    background-color: springgreen;
+    padding: 15px;
+    font-size: 32px;
+}
+
+/* Timer */
+.minutes {
+    display: flex;
+    flex: right;
+    visibility: hidden;
+    text-align: right;
+    font-size: large;
+    font-weight: bolder;
+    color: blue;
+}
+.seconds {
+    display: flex;
+    flex: left;
+    visibility: hidden;
+    text-align: right;
+    font-size: large;
+    font-weight: bolder;
+    color: blue;
+}
+
+/* Questions */
+.questions {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 34px;
+    visibility: hidden;
+}
+
+/* Text Input */
+.answerInput {
+    text-align: center;
+    visibility: hidden;
+}
+
+/* Retry Button */
+.retryButton {
+    visibility: hidden;
+    text-align: center;
+}
+#retryButton {
+    font-size: 32px;
+    padding: 15px;
+}
