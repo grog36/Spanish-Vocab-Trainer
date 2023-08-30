@@ -1,0 +1,10 @@
+The different gametype in the "nextQuestion()" and "checkAnswer()" functions
+
+Secondary:
+	-Create and endless gamemode
+	-Provide a different end-screen for the endless gamemode (you can't fail)
+
+Stylistic:
+	-Provide documentation for variables set up at the beginning of the JS file
+	-Make sure "===" instead of "==" where possible.
+	-Provide extra documentations for some functions and possibly JAVADOCS

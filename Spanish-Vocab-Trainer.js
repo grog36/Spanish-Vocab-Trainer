@@ -345,6 +345,8 @@ var currentWordObject;
 var currentWord;
 var wordCount = 0;
 var wordList = [];
+var vocabSetCount = 1; //Manually needs to be changed
+var gametype = "definition"; //What the user needs to answer with (definition or word)
 
 //Allows the user to choose from which set of Vocab Words to use
 function chooseSet(setNumber) {
@@ -359,37 +361,64 @@ function chooseSet(setNumber) {
 
 //Startup function
 function start() {
-    //Sets document Element Visibilities
-    document.getElementById("startButton").style.visibility = "hidden";
-    for (let i in timerList) {
-        timerList[i].style.visibility = "visible";
-    }
-    document.getElementById("questions").style.visibility = "visible";
-    document.getElementById("input").style.visibility = "visible";
-    document.getElementById("input").focus();
-    document.getElementById("tips").style.visibility = "visible";
 
-    //Sets up and initializes the list(s) to use
-    chooseSet(1);
+    //Sets up list depending on chosen sets
+    for (let i = 1; i < vocabSetCount + 1; i++) {
+        if (document.getElementById(`vocabList${i}Switch`).checked === true) {
+            chooseSet(1);
+        }
+    }
+
+    //Sets up the wordcount for the current variation of the word list
     wordCount = wordList.length;
 
-    //Sets up questions and timer
-    timerContinue();
-    nextQuestion();
+    //If the list is not empty
+    if (wordCount !== 0) {
+        //Initializes the gametype
+        if (document.getElementById("gametypeSelect").value.split("")[1] === "Word") {
+            gametype = "word";
+        }
+
+        //Sets document Element Visibilities
+        document.getElementById("startButton").style.visibility = "hidden";
+        for (let i in timerList) {
+            timerList[i].style.visibility = "visible";
+        }
+        document.getElementById("gametypeLabel").style.visibility = "hidden";
+        document.getElementById("gametypeSelect").style.visibility = "hidden";
+        document.getElementById("questions").style.visibility = "visible";
+        document.getElementById("input").style.visibility = "visible";
+        document.getElementById("input").focus();
+        document.getElementById("tips").style.visibility = "visible";
+        for (let i = 1; i < vocabSetCount + 1; i++) {
+            document.getElementById(`vocabList${i}Switch`).style.visibility = "hidden";
+            document.getElementById(`vocabList${i}Label`).style.visibility = "hidden";
+        }
+
+        //Sets up questions and timer
+        timerContinue();
+        nextQuestion();
+        
+    }
 }
 
 //Sets Up the Next Question
 function nextQuestion() {
-    if (wordList.length == 0) {
+    if (wordList.length === 0) {
         youWin();
     }
     else {
-        let currentIndex = randomNumber(0, (wordList.length - 1));
-        currentWordObject = wordList[currentIndex];
-        currentWord = Object.keys(currentWordObject)[0];
-        wordList.splice(currentIndex, 1);
-        document.getElementById("questions").innerHTML = currentWord;
-        document.getElementById("input").value = "";
+        if (gametype === "definition") {
+            let currentIndex = randomNumber(0, (wordList.length - 1));
+            currentWordObject = wordList[currentIndex];
+            currentWord = Object.keys(currentWordObject)[0];
+            wordList.splice(currentIndex, 1);
+            document.getElementById("questions").innerHTML = currentWord;
+            document.getElementById("input").value = "";
+        }
+        else if (gametype === "word") {
+            //TODO: DO THIS
+        }
     }
 }
 
@@ -397,15 +426,6 @@ function nextQuestion() {
 function checkAnswer() {
     //Sets up variables for checking
     let input = document.getElementById("input").value
-    let possibleAnswers = currentWordObject[currentWord]["definitions"];
-
-    //Checks if user was right
-    for (let i = 0; i < possibleAnswers.length; i++) {
-        if (input.toLowerCase() == possibleAnswers[i].toLowerCase()) {
-            score++;
-            nextQuestion();
-        }
-    }
 
     //Checks if user wanted to quit
     if (input == "END") {
@@ -413,6 +433,22 @@ function checkAnswer() {
         currentWord = null;
         wordList = [];
         nextQuestion();
+    }
+
+    //Checks for current gametype
+    if (gametype === "word") {
+        //TODO: DO THIS
+    }
+    else if (gametype === "definition") {
+        let possibleAnswers = currentWordObject[currentWord]["definitions"];
+
+        //Checks if user was right
+        for (let i = 0; i < possibleAnswers.length; i++) {
+            if (input.toLowerCase() == possibleAnswers[i].toLowerCase()) {
+                score++;
+                nextQuestion();
+            }
+        }
     }
 }
 
