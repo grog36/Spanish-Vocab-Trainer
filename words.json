@@ -20,7 +20,7 @@
         "definitions": [
             "the touch"
         ],
-        "partofSpeech": "noun",
+        "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSet": 1
     },
@@ -333,5 +333,153 @@
         ],
         "partOfSpeech": "verb",
         "vocabSet": 1
+    },
+    "cuadrado": {
+        "definitions": [
+            "square"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSet": 2
+    },
+    "grueso": {
+        "definitions": [
+            "thick"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSet": 2
+    },
+    "redondo": {
+        "definitions": [
+            "round"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSet": 2
+    },
+    "blando": {
+        "definitions": [
+            "soft"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSet": 2
+    },
+    "duro": {
+        "definitions": [
+            "hard"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSet": 2
+    },
+    "el porrazo": {
+        "definitions": [
+            "the blow"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 2
+    },
+    "callado": {
+        "definitions": [
+            "silent"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSet": 2
+    },
+    "extrovertido": {
+        "definitions": [
+            "outgoing"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSet": 2
+    },
+    "el recordimiento": {
+        "definitions": [
+            "the remorse"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 2
+    },
+    "fijarse": {
+        "definitions": [
+            "to pay attention"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 2
+    },
+    "guardar": {
+        "definitions": [
+            "to put away",
+            "to save"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 2
+    },
+    "la presa": {
+        "definitions": [
+            "the prey"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 2
+    },
+    "quedarse": {
+        "definitions": [
+            "to stay"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 2
+    },
+    "quedar": {
+        "definitions": [
+            "to be left",
+            "to remain"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 2
+    },
+    "el fracaso": {
+        "definitions": [
+            "the failure"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 2
+    },
+    "elegir": {
+        "definitions": [
+            "to choose"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 2
+    },
+    "evitar": {
+        "definitions": [
+            "to avoid",
+            "to prevent"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 2
+    },
+    "el riesgo": {
+        "definitions": [
+            "the risk"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 2
+    },
+    "parecer": {
+        "definitions": [
+            "to seem"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 2
     }
 }

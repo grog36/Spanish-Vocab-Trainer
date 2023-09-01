@@ -8,3 +8,12 @@ Stylistic:
 	-Provide documentation for variables set up at the beginning of the JS file
 	-Make sure "===" instead of "==" where possible.
 	-Provide extra documentations for some functions and possibly JAVADOCS
+
+
+Words:
+	-de cuadros
+	-de rayas
+	-a partir de
+	-encima de
+	-detrás de
+	-parecerse a
