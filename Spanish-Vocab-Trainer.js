@@ -358,10 +358,25 @@ var WORDS = {
     },
     "redondo": {
         "definitions": [
-            "round"
+            "round",
+            "circular"
         ],
         "partOfSpeech": "adjective",
         "gender": "masculine",
+        "vocabSet": 2
+    },
+    "de cuadros": {
+        "definitions": [
+            "checkered"
+        ],
+        "partOfSpeech": "adjective",
+        "vocabSet": 2
+    },
+    "de rayas": {
+        "definitions": [
+            "striped"
+        ],
+        "partOfSpeech": "adjective",
         "vocabSet": 2
     },
     "blando": {
@@ -382,10 +397,33 @@ var WORDS = {
     },
     "el porrazo": {
         "definitions": [
-            "the blow"
+            "the blow",
+            "the hit",
+            "the strike",
+            "the punch"
         ],
         "partOfSpeech": "noun",
         "gender": "masculine",
+        "vocabSet": 2
+    },
+    "a partir de": {
+        "definitions": [
+            "starting with"
+        ],
+        "vocabSet": 2
+    },
+    "encima de": {
+        "definitions": [
+            "on top of",
+            "ontop of"
+        ],
+        "vocabSet": 2
+    },
+    "detrás de": {
+        "definitions": [
+            "behind",
+            "behind of"
+        ],
         "vocabSet": 2
     },
     "callado": {
@@ -414,7 +452,8 @@ var WORDS = {
     },
     "fijarse": {
         "definitions": [
-            "to pay attention"
+            "to pay attention",
+            "to notice"
         ],
         "partOfSpeech": "verb",
         "vocabSet": 2
@@ -437,7 +476,8 @@ var WORDS = {
     },
     "quedarse": {
         "definitions": [
-            "to stay"
+            "to stay",
+            "to stay willingly"
         ],
         "partOfSpeech": "verb",
         "vocabSet": 2
@@ -445,7 +485,8 @@ var WORDS = {
     "quedar": {
         "definitions": [
             "to be left",
-            "to remain"
+            "to remain",
+            "to stay unwillingly"
         ],
         "partOfSpeech": "verb",
         "vocabSet": 2
@@ -487,13 +528,153 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSet": 2
+    },
+    "parecerse a": {
+        "definitions": [
+            "to look like",
+            "to seem like"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 2
+    },
+    "óxido": {
+        "definitions": [
+            "rusty"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSet": 3
+    },
+    "polvoriento": {
+        "definitions": [
+            "dusty"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSet": 3
+    },
+    "el luto": {
+        "definitions": [
+            "the mourning"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 3
+    },
+    "el regazo": {
+        "definitions": [
+            "the lap"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 3
+    },
+    "abastecerse": {
+        "definitions": [
+            "to stock up"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 3
+    },
+    "atravesar": {
+        "definitions": [
+            "to cross",
+            "to go across",
+            "to traverse"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 3
+    },
+    "el sudor": {
+        "definitions": [
+            "the sweat",
+            "the perspiration"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 3
+    },
+    "estrépito": {
+        "definitions": [
+            "loud noise",
+            "abnoxious noise"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSet": 3
+    },
+    "mirar fijamente": {
+        "definitions": [
+            "to stare"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 3
+    },
+    "la acera": {
+        "definitions": [
+            "the sidewalk"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 3
+    },
+    "la baldosa": {
+        "definitions": [
+            "the tile",
+            "the floor tile"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 3
+    },
+    "agobiado": {
+        "definitions": [
+            "worn out",
+            "overwhelmed"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSet": 3
+    },
+    "el cura": {
+        "definitions": [
+            "the priest"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 3
+    },
+    "el sacerdote": {
+        "definitions": [
+            "the priest"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 3
+    },
+    "descalzo": {
+        "definitions": [
+            "barefoot",
+            "barefooted"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSet": 3
+    },
+    "a tientas": {
+        "definitions": [
+            "by feel",
+            "blindly"
+        ],
+        "partOfSpeech": "phrase",
+        "vocabSet": 3
     }
 };
 var currentWordObject;
 var currentWord;
 var wordCount = 0;
 var wordList = [];
-var vocabSetCount = 2; //Manually needs to be changed
+var vocabSetCount = 3; //Manually needs to be changed
 var gametype = "definition"; //What the user needs to answer with (definition or word)
 
 //Allows the user to choose from which set of Vocab Words to use
