@@ -415,7 +415,9 @@ var WORDS = {
     "encima de": {
         "definitions": [
             "on top of",
-            "ontop of"
+            "ontop of",
+            "on top",
+            "ontop"
         ],
         "vocabSet": 2
     },
@@ -428,7 +430,8 @@ var WORDS = {
     },
     "callado": {
         "definitions": [
-            "silent"
+            "silent",
+            "queit"
         ],
         "partOfSpeech": "adjective",
         "gender": "masculine",
@@ -436,7 +439,8 @@ var WORDS = {
     },
     "extrovertido": {
         "definitions": [
-            "outgoing"
+            "outgoing",
+            "extroverted"
         ],
         "partOfSpeech": "adjective",
         "gender": "masculine",
@@ -461,7 +465,8 @@ var WORDS = {
     "guardar": {
         "definitions": [
             "to put away",
-            "to save"
+            "to save",
+            "to keep"
         ],
         "partOfSpeech": "verb",
         "vocabSet": 2
@@ -486,6 +491,7 @@ var WORDS = {
         "definitions": [
             "to be left",
             "to remain",
+            "to stay",
             "to stay unwillingly"
         ],
         "partOfSpeech": "verb",
