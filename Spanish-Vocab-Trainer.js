@@ -431,7 +431,7 @@ var WORDS = {
     "callado": {
         "definitions": [
             "silent",
-            "queit"
+            "quiet"
         ],
         "partOfSpeech": "adjective",
         "gender": "masculine",
