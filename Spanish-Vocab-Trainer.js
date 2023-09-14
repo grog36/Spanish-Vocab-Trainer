@@ -600,12 +600,12 @@ var WORDS = {
         "gender": "masculine",
         "vocabSet": 3
     },
-    "estrépito": {
+    "el estrépito": {
         "definitions": [
-            "loud noise",
-            "abnoxious noise"
+            "the loud noise",
+            "the abnoxious noise"
         ],
-        "partOfSpeech": "adjective",
+        "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSet": 3
     },
