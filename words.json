@@ -668,5 +668,189 @@
         ],
         "partOfSpeech": "phrase",
         "vocabSet": 3
+    },
+    "la cualidad": {
+        "definitions": [
+            "the quality",
+            "the quality (attribute, characteristic, virtue)"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 4
+    },
+    "la calidad": {
+        "definitions": [
+            "the quality",
+            "the quality (good or bad)"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 4
+    },
+    "darse cuenta de": {
+        "definitions": [
+            "to realize",
+            "to become aware of"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 4
+    },
+    "realizar": {
+        "definitions": [
+            "to realize",
+            "to make real"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 4
+    },
+    "surgir": {
+        "definitions": [
+            "to surge",
+            "to come up",
+            "to arise"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 4
+    },
+    "suceder": {
+        "definitions": [
+            "to happen"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 4
+    },
+    "tener éxito": {
+        "definitions": [
+            "to succeed",
+            "to have success"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 4
+    },
+    "asistir a": {
+        "definitions": [
+            "to attend"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 4
+    },
+    "atender": {
+        "definitions": [
+            "to assist",
+            "to attend to",
+            "to wait on"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 4
+    },
+    "aún": {
+        "definitions": [
+            "still"
+        ],
+        "partOfSpeech": "adverb",
+        "vocabSet": 4
+    },
+    "quieto": {
+        "definitions": [
+            "still"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSet": 4
+    },
+    "ya": {
+        "definitions": [
+            "already"
+        ],
+        "partOfSpeech": "adverb",
+        "vocabSet": 4
+    },
+    "el cuento": {
+        "definitions": [
+            "the story"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 4
+    },
+    "la cuenta": {
+        "definitions": [
+            "the check"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 4
+    },
+    "asumir": {
+        "definitions": [
+            "to take on"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 4
+    },
+    "suponer": {
+        "definitions": [
+            "to assume",
+            "to suppose"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 4
+    },
+    "actualmente": {
+        "definitions": [
+            "currently"
+        ],
+        "partOfSpeech": "adverb",
+        "vocabSet": 4
+    },
+    "en realidad": {
+        "definitions": [
+            "actually",
+            "in reality"
+        ],
+        "partOfSpeech": "phrase",
+        "vocabSet": 4
+    },
+    "pedir": {
+        "definitions": [
+            "to ask for"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 4
+    },
+    "preguntar": {
+        "definitions": [
+            "to ask"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 4
+    },
+    "preguntar por": {
+        "definitions": [
+            "to ask about"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 4
+    },
+    "pensar en": {
+        "definitions": [
+            "to think about"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 4
+    },
+    "pensar de": {
+        "definitions": [
+            "to think of"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 4
+    },
+    "pensar + INF": {
+        "definitions": [
+            "to plan on doing something"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 4
     }
 }
