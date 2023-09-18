@@ -894,7 +894,7 @@ function start() {
     //If the list is not empty
     if (wordCount !== 0) {
         //Initializes the gametype
-        if (document.getElementById("gametypeSelect").value.split("")[1] === "Word") {
+        if (document.getElementById("gametypeSelect").value.split(" ")[1] === "Word") {
             gametype = "word";
         }
 
@@ -924,19 +924,32 @@ function start() {
 //Sets Up the Next Question
 function nextQuestion() {
     if (wordList.length === 0) {
-        youWin();
+        gameOver();
     }
     else {
+        let currentIndex = randomNumber(0, (wordList.length - 1));
+        currentWordObject = wordList[currentIndex];
+        currentWord = Object.keys(currentWordObject)[0];
+        wordList.splice(currentIndex, 1);
+        document.getElementById("input").value = "";
         if (gametype === "definition") {
-            let currentIndex = randomNumber(0, (wordList.length - 1));
-            currentWordObject = wordList[currentIndex];
-            currentWord = Object.keys(currentWordObject)[0];
-            wordList.splice(currentIndex, 1);
             document.getElementById("questions").innerHTML = currentWord;
-            document.getElementById("input").value = "";
         }
         else if (gametype === "word") {
-            //TODO: DO THIS
+            let newQuestionText = "(" + currentWordObject[currentWord]["partOfSpeech"];
+            if (currentWordObject[currentWord]["partOfSpeech"] === "adjective") {
+                if (currentWordObject[currentWord]["gender"] === "feminine" || currentWordObject[currentWord]["gender"] === "masculine") {
+                    newQuestionText += ", " + currentWordObject[currentWord]["gender"];
+                }
+            }
+            newQuestionText += ") ";
+            for (let defNum in currentWordObject[currentWord]["definitions"]) {
+                newQuestionText += currentWordObject[currentWord]["definitions"][defNum];
+                if (defNum != currentWordObject[currentWord]["definitions"].length - 1) {
+                    newQuestionText += ", "
+                }
+            }
+            document.getElementById("questions").innerHTML = newQuestionText;
         }
     }
 }
@@ -948,15 +961,15 @@ function checkAnswer() {
 
     //Checks if user wanted to quit
     if (input == "END") {
-        currentWordObject = null;
-        currentWord = null;
-        wordList = [];
-        nextQuestion();
+        gameOver();
     }
 
     //Checks for current gametype
     if (gametype === "word") {
-        //TODO: DO THIS
+        if (input.toLowerCase() == currentWord.toLowerCase()) {
+            score++;
+            nextQuestion();
+        }
     }
     else if (gametype === "definition") {
         let possibleAnswers = currentWordObject[currentWord]["definitions"];
@@ -972,25 +985,33 @@ function checkAnswer() {
 }
 
 //Displays Win Screen
-function youWin() {
+function gameOver() {
     //Visibility Options
     document.getElementById("input").style.visibility = "hidden";
     document.getElementById("retryButton").style.visibility = "visible";
     document.getElementById("tips").style.visibility = "hidden";
 
     //Stops Timer
-    stopTimer()
+    stopTimer();
 
-    //Checks  and displays whether the user won or lost
+    //Checks and displays whether the user won or lost
     if (score == wordCount) {
         document.getElementById("questions").innerHTML = `YOU WIN! (${score} / ${wordCount})`;
         document.body.style.background = "green";
         document.getElementById("retryButton").style.backgroundColor = "lightgreen";
     }
     else {
-        document.getElementById("questions").innerHTML = `YOU LOSE! (${score} / ${wordCount})`;
+        let loseText = `YOU LOSE! `;
+        if (gametype === "definition") {
+            loseText += "One possible solution was: " + currentWordObject[currentWord]["definitions"][0] + ". ";
+        }
+        else if (gametype === "word") {
+            loseText += "The right answer was: " + currentWord + ". ";
+        }
+        loseText += `(${score} / ${wordCount})`;
         document.body.style.background = "red";
         document.getElementById("retryButton").style.backgroundColor = "crimson";
+        document.getElementById("questions").innerHTML = loseText;
     }
 }
 
