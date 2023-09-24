@@ -852,5 +852,153 @@
         ],
         "partOfSpeech": "verb",
         "vocabSet": 4
+    },
+    "extraer": {
+        "definitions": [
+            "to extract",
+            "to pull out",
+            "to take out"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 5
+    },
+    "aterrizar": {
+        "definitions": [
+            "to land",
+            "to touch down"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 5
+    },
+    "hacer cola": {
+        "definitions": [
+            "to get in line",
+            "to line up"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 5
+    },
+    "los escombros": {
+        "definitions": [
+            "the debris",
+            "the rubble"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 5
+    },
+    "quejarse": {
+        "definitions": [
+            "to complain",
+            "to whine"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 5
+    },
+    "la vivienda": {
+        "definitions": [
+            "the house",
+            "the home",
+            "the housing"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 5
+    },
+    "agotarse": {
+        "definitions": [
+            "to tire oneself out",
+            "to get exhausted",
+            "to wear oneself out"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 5
+    },
+    "deambular": {
+        "definitions": [
+            "to wander",
+            "to roam"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 5
+    },
+    "la bocina": {
+        "definitions": [
+            "the horn",
+            "the siren",
+            "the car horn"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 5
+    },
+    "el toque de queda": {
+        "definitions": [
+            "the curfew"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 5
+    },
+    "el/la maleante": {
+        "definitions": [
+            "the criminal",
+            "the crook"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "both",
+        "vocabSet": 5
+    },
+    "la mezquindad": {
+        "definitions": [
+            "the meanness",
+            "the stinginess"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 5
+    },
+    "asombroso": {
+        "definitions": [
+            "amazing",
+            "astonishing"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSet": 5
+    },
+    "el empresario": {
+        "definitions": [
+            "the businessman"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 5
+    },
+    "la empresaria": {
+        "definitions": [
+            "the businesswoman"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 5
+    },
+    "la sequía": {
+        "definitions": [
+            "the drought"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 5
+    },
+    "el augurio": {
+        "definitions": [
+            "the omen",
+            "the sign",
+            "the prediction"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 5
     }
 }
