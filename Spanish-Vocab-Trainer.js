@@ -1006,13 +1006,143 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSet": 5
+    },
+    "el alumno": {
+        "definitions": [
+            "the student"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 6
+    },
+    "charlar": {
+        "definitions": [
+            "to chat",
+            "to talk"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 6
+    },
+    "aislado": {
+        "definitions": [
+            "isolated"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSet": 6
+    },
+    "el recreo": {
+        "definitions": [
+            "the recess",
+            "the playtime",
+            "the break"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 6
+    },
+    "la pertenencia": {
+        "definitions": [
+            "the ownership",
+            "the belonging",
+            "the membership"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 6
+    },
+    "el acoso": {
+        "definitions": [
+            "the harassment",
+            "the bullying"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 6
+    },
+    "la aula": {
+        "definitions": [
+            "the classroom"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 6
+    },
+    "la pauta": {
+        "definitions": [
+            "the norm",
+            "the standard",
+            "the guidelines"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 6
+    },
+    "advertir": {
+        "definitions": [
+            "to warn",
+            "to advise",
+            "to forewarn"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 6
+    },
+    "datos": {
+        "definitions": [
+            "data"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "N/A",
+        "vocabSet": 6
+    },
+    "el rendimiento": {
+        "definitions": [
+            "the performance",
+            "the yield"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 6
+    },
+    "medir": {
+        "definitions": [
+            "to measure"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 6
+    },
+    "la herramienta": {
+        "definitions": [
+            "the tool"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 6
+    },
+    "ajeno": {
+        "definitions": [
+            "foreign",
+            "unaffiliated",
+            "other people's"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSet": 6
+    },
+    "el taller": {
+        "definitions": [
+            "the workshop"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 6
     }
 };
 var currentWordObject;
 var currentWord;
 var wordCount = 0;
 var wordList = [];
-var vocabSetCount = 5; //Manually needs to be changed
+var vocabSetCount = 6; //Manually needs to be changed
 var gametype = "definition"; //What the user needs to answer with (definition or word)
 
 //Allows the user to choose from which set of Vocab Words to use
