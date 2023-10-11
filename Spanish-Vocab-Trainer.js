@@ -1177,20 +1177,16 @@ function start() {
         }
 
         //Sets document Element Visibilities
-        document.getElementById("startButton").style.visibility = "hidden";
         for (let i in timerList) {
             timerList[i].style.visibility = "visible";
         }
-        document.getElementById("gametypeLabel").style.visibility = "hidden";
-        document.getElementById("gametypeSelect").style.visibility = "hidden";
         document.getElementById("questions").style.visibility = "visible";
         document.getElementById("input").style.visibility = "visible";
         document.getElementById("input").focus();
         document.getElementById("tips").style.visibility = "visible";
-        for (let i = 1; i < vocabSetCount + 1; i++) {
-            document.getElementById(`vocabList${i}Switch`).style.visibility = "hidden";
-            document.getElementById(`vocabList${i}Label`).style.visibility = "hidden";
-        }
+
+        //Removes start button div
+        document.getElementById("startButtonDiv").remove();
 
         //Sets up questions and timer
         timerContinue();
