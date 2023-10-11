@@ -1236,6 +1236,7 @@ function nextQuestion() {
 function checkAnswer() {
     //Sets up variables for checking
     let input = document.getElementById("input").value
+    let guess = input.toLowerCase().replace(/\s/g, '');
 
     //Checks if user wanted to quit
     if (input == "END") {
@@ -1244,7 +1245,7 @@ function checkAnswer() {
 
     //Checks for current gametype
     if (gametype === "word") {
-        if (input.toLowerCase() == currentWord.toLowerCase()) {
+        if (guess == currentWord.toLowerCase().replace(/\s/g, '')) {
             score++;
             nextQuestion();
         }
@@ -1254,7 +1255,7 @@ function checkAnswer() {
 
         //Checks if user was right
         for (let i = 0; i < possibleAnswers.length; i++) {
-            if (input.toLowerCase() == possibleAnswers[i].toLowerCase()) {
+            if (guess == possibleAnswers[i].toLowerCase().replace(/\s/g, '')) {
                 score++;
                 nextQuestion();
             }
