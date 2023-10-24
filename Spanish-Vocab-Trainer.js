@@ -946,13 +946,13 @@ var WORDS = {
         "gender": "masculine",
         "vocabSet": 5
     },
-    "el/la maleante": {
+    "el maleante": {
         "definitions": [
             "the criminal",
             "the crook"
         ],
         "partOfSpeech": "noun",
-        "gender": "both",
+        "gender": "masculine",
         "vocabSet": 5
     },
     "la mezquindad": {
@@ -1136,13 +1136,290 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSet": 6
+    },
+    "primero": {
+        "definitions": [
+            "first"
+        ],
+        "partOfSpeech": "ordinal number",
+        "gender": "masculine",
+        "vocabSet": 7
+    },
+    "segundo": {
+        "definitions": [
+            "second"
+        ],
+        "partOfSpeech": "ordinal number",
+        "gender": "masculine",
+        "vocabSet": 7
+    },
+    "tercero": {
+        "definitions": [
+            "third"
+        ],
+        "partOfSpeech": "ordinal number",
+        "gender": "masculine",
+        "vocabSet": 7
+    },
+    "cuarto": {
+        "definitions": [
+            "fourth"
+        ],
+        "partOfSpeech": "ordinal number",
+        "gender": "masculine",
+        "vocabSet": 7
+    },
+    "quinto": {
+        "definitions": [
+            "fifth"
+        ],
+        "partOfSpeech": "ordinal number",
+        "gender": "masculine",
+        "vocabSet": 7
+    },
+    "sexto": {
+        "definitions": [
+            "sixth"
+        ],
+        "partOfSpeech": "ordinal number",
+        "gender": "masculine",
+        "vocabSet": 7
+    },
+    "séptimo": {
+        "definitions": [
+            "seventh"
+        ],
+        "partOfSpeech": "ordinal number",
+        "gender": "masculine",
+        "vocabSet": 7
+    },
+    "octavo": {
+        "definitions": [
+            "eighth"
+        ],
+        "partOfSpeech": "ordinal number",
+        "gender": "masculine",
+        "vocabSet": 7
+    },
+    "noveno": {
+        "definitions": [
+            "ninth"
+        ],
+        "partOfSpeech": "ordinal number",
+        "gender": "masculine",
+        "vocabSet": 7
+    },
+    "décimo": {
+        "definitions": [
+            "tenth"
+        ],
+        "partOfSpeech": "ordinal number",
+        "gender": "masculine",
+        "vocabSet": 7
+    },
+    "peinar": {
+        "definitions": [
+            "to style",
+            "to comb"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 7
+    },
+    "el peinado": {
+        "definitions": [
+            "the hairstyle",
+            "the hairdo"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 7
+    },
+    "fregar": {
+        "definitions": [
+            "to wash",
+            "to scrub",
+            "to mop"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 7
+    },
+    "el fregadero": {
+        "definitions": [
+            "the sink"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 7
+    },
+    "fresco": {
+        "definitions": [
+            "fresh"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSet": 7
+    },
+    "la frescura": {
+        "definitions": [
+            "the freshness"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 7
+    },
+    "la redoundez": {
+        "definitions": [
+            "the roundness"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 7
+    },
+    "exquisito": {
+        "definitions": [
+            "delicious",
+            "tasty",
+            "exquisite"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSet": 7
+    },
+    "la exquisitez": {
+        "definitions": [
+            "the exquisiteness",
+            "the delicacy"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 7
+    },
+    "el refrán": {
+        "definitions": [
+            "the saying",
+            "the proverb"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 7
+    },
+    "la avispa": {
+        "definitions": [
+            "the wasp"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 7
+    },
+    "la venda": {
+        "definitions": [
+            "the bandage",
+            "the blindfold"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 7
+    },
+    "eludir": {
+        "definitions": [
+            "to elude",
+            "to avoid",
+            "to evade",
+            "to escape"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 7
+    },
+    "por una parte": {
+        "definitions": [
+            "on the one hand"
+        ],
+        "partOfSpeech": "phrase",
+        "vocabSet": 7
+    },
+    "por otra parte": {
+        "definitions": [
+            "on the other hand",
+            "moreover"
+        ],
+        "partOfSpeech": "phrase",
+        "vocabSet": 7
+    },
+    "la venta": {
+        "definitions": [
+            "the sale"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 7
+    },
+    "el ganado": {
+        "definitions": [
+            "the livestock",
+            "the herd"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 7
+    },
+    "el ganadero": {
+        "definitions": [
+            "the rancher"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 7
+    },
+    "lento": {
+        "definitions": [
+            "slow"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSet": 7
+    },
+    "la lentitud": {
+        "definitions": [
+            "the slowness"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 7
+    },
+    "el anochecer": {
+        "definitions": [
+            "the dusk",
+            "the nightfall"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 7
+    },
+    "el atardecer": {
+        "definitions": [
+            "the evening",
+            "the sunset"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 7
+    },
+    "el amanecer": {
+        "definitions": [
+            "the dawn",
+            "the daybreak",
+            "the sunrise"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 7
     }
 };
 var currentWordObject;
 var currentWord;
 var wordCount = 0;
 var wordList = [];
-var vocabSetCount = 6; //Manually needs to be changed
+var vocabSetCount = 7; //Manually needs to be changed
 var gametype = "definition"; //What the user needs to answer with (definition or word)
 
 //Allows the user to choose from which set of Vocab Words to use
