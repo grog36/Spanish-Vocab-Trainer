@@ -1277,6 +1277,7 @@ var WORDS = {
     },
     "exquisito": {
         "definitions": [
+            "exquisite",
             "delicious",
             "tasty",
             "exquisite"
