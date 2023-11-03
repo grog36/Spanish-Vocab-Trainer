@@ -3,7 +3,7 @@
 
 //Variable Declarations
 const timerList = [document.getElementById("minutesLabel"), document.getElementById("minutes"), document.getElementById("seconds"), document.getElementById("secondsLabel")];
-var score = 0
+var score = 0;
 var WORDS = {
     "la vista": {
         "definitions": [
@@ -1414,13 +1414,165 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSet": 7
+    },
+    "el ámbito": {
+        "definitions": [
+            "the field",
+            "the sphere",
+            "the area",
+            "the realm"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 8
+    },
+    "abarcar": {
+        "definitions": [
+            "to cover",
+            "to extend over",
+            "to encompass"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 8
+    },
+    "la médula": {
+        "definitions": [
+            "the marrow",
+            "the bone marrow"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 8
+    },
+    "el miasma": {
+        "definitions": [
+            "the miasma",
+            "the bad smell"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 8
+    },
+    "la frontera": {
+        "definitions": [
+            "the frontier",
+            "the border"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 8
+    },
+    "arrastrar": {
+        "definitions": [
+            "to drag"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 8
+    },
+    "atraverse": {
+        "definitions": [
+            "to dare"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 8
+    },
+    "frenar": {
+        "definitions": [
+            "to brake"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 8
+    },
+    "el disparate": {
+        "definitions": [
+            "the silly thing",
+            "the folly",
+            "the nonsense",
+            "the goofy thing"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSet": 8
+    },
+    "la calumnia": {
+        "definitions": [
+            "the slander",
+            "the libel"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 8
+    },
+    "amparar": {
+        "definitions": [
+            "to help",
+            "to protect"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 8
+    },
+    "osar": {
+        "definitions": [
+            "to dare"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 8
+    },
+    "la osadía": {
+        "definitions": [
+            "the daring thing",
+            "the boldness",
+            "the audacity"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 8
+    },
+    "derrotar": {
+        "definitions": [
+            "to defeat"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 8
+    },
+    "promover": {
+        "definitions": [
+            "to promote"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 8
+    },
+    "reemplazar": {
+        "definitions": [
+            "to replace"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 8
+    },
+    "la hazaña": {
+        "definitions": [
+            "the feat",
+            "the accomplishment"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSet": 8
+    },
+    "soler": {
+        "definitions": [
+            "to usually do",
+            "to be accustomed to",
+            "to be in the habit of"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSet": 8
     }
 };
 var currentWordObject;
 var currentWord;
 var wordCount = 0;
 var wordList = [];
-var vocabSetCount = 7; //Manually needs to be changed
+var vocabSetCount = 8; //Manually needs to be changed
 var gametype = "definition"; //What the user needs to answer with (definition or word)
 
 //Allows the user to choose from which set of Vocab Words to use
