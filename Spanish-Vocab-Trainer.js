@@ -505,7 +505,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            2
+            2,
+            3
         ]
     },
     "a partir de": {
@@ -872,7 +873,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            4
+            4,
+            9
         ]
     },
     "realizar": {
@@ -882,7 +884,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            4
+            4,
+            9
         ]
     },
     "surgir": {
@@ -921,7 +924,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            4
+            4,
+            9
         ]
     },
     "atender": {
@@ -932,7 +936,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            4
+            4,
+            9
         ]
     },
     "aún": {
@@ -1008,7 +1013,8 @@ var WORDS = {
         ],
         "partOfSpeech": "adverb",
         "vocabSets": [
-            4
+            4,
+            9
         ]
     },
     "en realidad": {
@@ -2361,13 +2367,147 @@ var WORDS = {
         "vocabSets": [
             9
         ]
+    },
+    "despojar": {
+        "definitions": [
+            "to strip",
+            "to divest",
+            "to undress"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            10
+        ]
+    },
+    "ocioso": {
+        "definitions": [
+            "idle",
+            "unused",
+            "pointless"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSets": [
+            10
+        ]
+    },
+    "bárbaro": {
+        "definitions": [
+            "barbaric",
+            "savage",
+            "barbarian"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSets": [
+            10
+        ]
+    },
+    "vacío": {
+        "definitions": [
+            "empty",
+            "vacant"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSets": [
+            10
+        ]
+    },
+    "la vanguardia": {
+        "definitions": [
+            "the vanguard",
+            "the avant-garde"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSets": [
+            10
+        ]
+    },
+    "borrar": {
+        "definitions": [
+            "to erase",
+            "to delete",
+            "to remove",
+            "to wipe off"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            10
+        ]
+    },
+    "teñir": {
+        "definitions": [
+            "to dye",
+            "to color",
+            "to stain"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            10
+        ]
+    },
+    "destacarse": {
+        "definitions": [
+            "to stand out",
+            "to be outlined"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            10
+        ]
+    },
+    "el mestizaje": {
+        "definitions": [
+            "the crossbreeding",
+            "the blending",
+            "the fusion"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSets": [
+            10
+        ]
+    },
+    "la mezcla": {
+        "definitions": [
+            "the mixture",
+            "the blend",
+            "the mix"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSets": [
+            10
+        ]
+    },
+    "tener en cuenta": {
+        "definitions": [
+            "to keep in mind",
+            "to take into account"
+        ],
+        "partOfSpeech": "phrase",
+        "vocabSets": [
+            10
+        ]
+    },
+    "mimético": {
+        "definitions": [
+            "mimetic"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSets": [
+            10
+        ]
     }
 };
 var currentWordObject;
 var currentWord;
 var wordCount = 0;
 var wordList = [];
-var vocabSetCount = 9; //Manually needs to be changed
+var vocabSetCount = 10; //Manually needs to be changed
 var gametype = "definition"; //What the user needs to answer with (definition or word)
 
 //Allows the user to choose from which set of Vocab Words to use
