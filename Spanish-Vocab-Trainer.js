@@ -95,7 +95,8 @@ var WORDS = {
         "partOfSpeech": "adjective",
         "gender": "masculine",
         "vocabSets": [
-            1
+            1,
+            11
         ]
     },
     "acechar": {
@@ -123,7 +124,8 @@ var WORDS = {
         "partOfSpeech": "adjective",
         "gender": "feminine",
         "vocabSets": [
-            1
+            1,
+            11
         ]
     },
     "murmullar": {
@@ -160,7 +162,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "feminine",
         "vocabSets": [
-            1
+            1,
+            11
         ]
     },
     "el masaje": {
@@ -197,7 +200,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            1
+            1,
+            11
         ]
     },
     "el codazo": {
@@ -217,7 +221,8 @@ var WORDS = {
         "partOfSpeech": "adjective",
         "gender": "masculine",
         "vocabSets": [
-            1
+            1,
+            11
         ]
     },
     "mojado": {
@@ -237,7 +242,8 @@ var WORDS = {
         "partOfSpeech": "adjective",
         "gender": "masculine",
         "vocabSets": [
-            1
+            1,
+            11
         ]
     },
     "seco": {
@@ -286,7 +292,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            1
+            1,
+            11
         ]
     },
     "pegar": {
@@ -305,7 +312,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            1
+            1,
+            11
         ]
     },
     "hediondo": {
@@ -325,7 +333,8 @@ var WORDS = {
         "partOfSpeech": "adjective",
         "gender": "masculine",
         "vocabSets": [
-            1
+            1,
+            11
         ]
     },
     "quemado": {
@@ -413,7 +422,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            1
+            1,
+            11
         ]
     },
     "saber": {
@@ -472,7 +482,8 @@ var WORDS = {
         ],
         "partOfSpeech": "adjective",
         "vocabSets": [
-            2
+            2,
+            11
         ]
     },
     "blando": {
@@ -482,7 +493,8 @@ var WORDS = {
         "partOfSpeech": "adjective",
         "gender": "masculine",
         "vocabSets": [
-            2
+            2,
+            11
         ]
     },
     "duro": {
@@ -545,7 +557,8 @@ var WORDS = {
         "partOfSpeech": "adjective",
         "gender": "masculine",
         "vocabSets": [
-            2
+            2,
+            11
         ]
     },
     "extrovertido": {
@@ -566,7 +579,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            2
+            2,
+            11
         ]
     },
     "fijarse": {
@@ -576,7 +590,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            2
+            2,
+            11
         ]
     },
     "guardar": {
@@ -597,7 +612,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "feminine",
         "vocabSets": [
-            2
+            2,
+            11
         ]
     },
     "quedarse": {
@@ -607,7 +623,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            2
+            2,
+            11
         ]
     },
     "quedar": {
@@ -629,7 +646,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            2
+            2,
+            11
         ]
     },
     "elegir": {
@@ -638,7 +656,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            2
+            2,
+            11
         ]
     },
     "evitar": {
@@ -658,7 +677,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            2
+            2,
+            11
         ]
     },
     "parecer": {
@@ -697,7 +717,8 @@ var WORDS = {
         "partOfSpeech": "adjective",
         "gender": "masculine",
         "vocabSets": [
-            3
+            3,
+            11
         ]
     },
     "el luto": {
@@ -707,7 +728,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            3
+            3,
+            11
         ]
     },
     "el regazo": {
@@ -717,7 +739,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            3
+            3,
+            11
         ]
     },
     "abastecerse": {
@@ -748,7 +771,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            3
+            3,
+            11
         ]
     },
     "el estrépito": {
@@ -759,7 +783,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            3
+            3,
+            11
         ]
     },
     "mirar fijamente": {
@@ -768,7 +793,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            3
+            3,
+            11
         ]
     },
     "la acera": {
@@ -778,7 +804,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "feminine",
         "vocabSets": [
-            3
+            3,
+            11
         ]
     },
     "la baldosa": {
@@ -800,7 +827,8 @@ var WORDS = {
         "partOfSpeech": "adjective",
         "gender": "masculine",
         "vocabSets": [
-            3
+            3,
+            11
         ]
     },
     "el cura": {
@@ -831,7 +859,8 @@ var WORDS = {
         "partOfSpeech": "adjective",
         "gender": "masculine",
         "vocabSets": [
-            3
+            3,
+            11
         ]
     },
     "a tientas": {
@@ -841,7 +870,8 @@ var WORDS = {
         ],
         "partOfSpeech": "phrase",
         "vocabSets": [
-            3
+            3,
+            11
         ]
     },
     "la cualidad": {
@@ -852,7 +882,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "feminine",
         "vocabSets": [
-            4
+            4,
+            11
         ]
     },
     "la calidad": {
@@ -863,7 +894,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "feminine",
         "vocabSets": [
-            4
+            4,
+            11
         ]
     },
     "darse cuenta de": {
@@ -885,7 +917,8 @@ var WORDS = {
         "partOfSpeech": "verb",
         "vocabSets": [
             4,
-            9
+            9,
+            11
         ]
     },
     "surgir": {
@@ -896,7 +929,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            4
+            4,
+            11
         ]
     },
     "suceder": {
@@ -905,7 +939,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            4
+            4,
+            11
         ]
     },
     "tener éxito": {
@@ -925,7 +960,8 @@ var WORDS = {
         "partOfSpeech": "verb",
         "vocabSets": [
             4,
-            9
+            9,
+            11
         ]
     },
     "atender": {
@@ -937,7 +973,8 @@ var WORDS = {
         "partOfSpeech": "verb",
         "vocabSets": [
             4,
-            9
+            9,
+            11
         ]
     },
     "aún": {
@@ -1004,7 +1041,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            4
+            4,
+            11
         ]
     },
     "actualmente": {
@@ -1014,7 +1052,8 @@ var WORDS = {
         "partOfSpeech": "adverb",
         "vocabSets": [
             4,
-            9
+            9,
+            11
         ]
     },
     "en realidad": {
@@ -1033,7 +1072,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            4
+            4,
+            11
         ]
     },
     "preguntar": {
@@ -1042,7 +1082,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            4
+            4,
+            11
         ]
     },
     "preguntar por": {
@@ -1089,7 +1130,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            5
+            5,
+            11
         ]
     },
     "aterrizar": {
@@ -1099,17 +1141,20 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            5
+            5,
+            11
         ]
     },
     "hacer cola": {
         "definitions": [
             "to get in line",
-            "to line up"
+            "to line up",
+            "to make a line"
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            5
+            5,
+            11
         ]
     },
     "los escombros": {
@@ -1130,7 +1175,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            5
+            5,
+            11
         ]
     },
     "la vivienda": {
@@ -1142,7 +1188,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "feminine",
         "vocabSets": [
-            5
+            5,
+            11
         ]
     },
     "agotarse": {
@@ -1153,7 +1200,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            5
+            5,
+            11
         ]
     },
     "deambular": {
@@ -1163,7 +1211,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            5
+            5,
+            11
         ]
     },
     "la bocina": {
@@ -1185,7 +1234,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            5
+            5,
+            11
         ]
     },
     "el maleante": {
@@ -1196,7 +1246,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            5
+            5,
+            11
         ]
     },
     "la mezquindad": {
@@ -1248,7 +1299,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "feminine",
         "vocabSets": [
-            5
+            5,
+            11
         ]
     },
     "el augurio": {
@@ -1270,7 +1322,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            6
+            6,
+            11
         ]
     },
     "charlar": {
@@ -1280,7 +1333,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            6
+            6,
+            11
         ]
     },
     "aislado": {
@@ -1290,7 +1344,8 @@ var WORDS = {
         "partOfSpeech": "adjective",
         "gender": "masculine",
         "vocabSets": [
-            6
+            6,
+            11
         ]
     },
     "el recreo": {
@@ -1302,7 +1357,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            6
+            6,
+            11
         ]
     },
     "la pertenencia": {
@@ -1325,7 +1381,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            6
+            6,
+            11
         ]
     },
     "la aula": {
@@ -1358,7 +1415,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            6
+            6,
+            11
         ]
     },
     "datos": {
@@ -1368,7 +1426,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "N/A",
         "vocabSets": [
-            6
+            6,
+            11
         ]
     },
     "el rendimiento": {
@@ -1388,7 +1447,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            6
+            6,
+            11
         ]
     },
     "la herramienta": {
@@ -1398,7 +1458,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "feminine",
         "vocabSets": [
-            6
+            6,
+            11
         ]
     },
     "ajeno": {
@@ -1420,7 +1481,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            6
+            6,
+            11
         ]
     },
     "primero": {
@@ -1470,7 +1532,8 @@ var WORDS = {
         "partOfSpeech": "ordinal number",
         "gender": "masculine",
         "vocabSets": [
-            7
+            7,
+            11
         ]
     },
     "sexto": {
@@ -1480,7 +1543,8 @@ var WORDS = {
         "partOfSpeech": "ordinal number",
         "gender": "masculine",
         "vocabSets": [
-            7
+            7,
+            11
         ]
     },
     "séptimo": {
@@ -1520,7 +1584,8 @@ var WORDS = {
         "partOfSpeech": "ordinal number",
         "gender": "masculine",
         "vocabSets": [
-            7
+            7,
+            11
         ]
     },
     "peinar": {
@@ -1530,7 +1595,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            7
+            7,
+            11
         ]
     },
     "el peinado": {
@@ -1562,7 +1628,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            7
+            7,
+            11
         ]
     },
     "fresco": {
@@ -1585,14 +1652,15 @@ var WORDS = {
             7
         ]
     },
-    "la redoundez": {
+    "la redondez": {
         "definitions": [
             "the roundness"
         ],
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            7
+            7,
+            11
         ]
     },
     "exquisito": {
@@ -1627,7 +1695,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            7
+            7,
+            11
         ]
     },
     "la avispa": {
@@ -1637,7 +1706,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "feminine",
         "vocabSets": [
-            7
+            7,
+            11
         ]
     },
     "la venda": {
@@ -1710,7 +1780,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            7
+            7,
+            11
         ]
     },
     "lento": {
@@ -1799,7 +1870,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "feminine",
         "vocabSets": [
-            8
+            8,
+            11
         ]
     },
     "el miasma": {
@@ -1821,7 +1893,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "feminine",
         "vocabSets": [
-            8
+            8,
+            11
         ]
     },
     "arrastrar": {
@@ -1830,7 +1903,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            8
+            8,
+            11
         ]
     },
     "atraverse": {
@@ -1848,7 +1922,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            8
+            8,
+            11
         ]
     },
     "el disparate": {
@@ -1882,7 +1957,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            8
+            8,
+            11
         ]
     },
     "osar": {
@@ -1891,7 +1967,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            8
+            8,
+            11
         ]
     },
     "la osadía": {
@@ -1912,7 +1989,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            8
+            8,
+            11
         ]
     },
     "promover": {
@@ -1930,7 +2008,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            8
+            8,
+            11
         ]
     },
     "la hazaña": {
@@ -1941,7 +2020,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "feminine",
         "vocabSets": [
-            8
+            8,
+            11
         ]
     },
     "soler": {
@@ -1952,7 +2032,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            8
+            8,
+            11
         ]
     },
     "la grosería": {
@@ -1963,7 +2044,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "feminine",
         "vocabSets": [
-            9
+            9,
+            11
         ]
     },
     "la tienda": {
@@ -2016,7 +2098,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "feminine",
         "vocabSets": [
-            9
+            9,
+            11
         ]
     },
     "la charla": {
@@ -2049,7 +2132,8 @@ var WORDS = {
         "partOfSpeech": "adjective",
         "gender": "masculine",
         "vocabSets": [
-            9
+            9,
+            11
         ]
     },
     "escrupuloso": {
@@ -2096,7 +2180,8 @@ var WORDS = {
         "partOfSpeech": "adjective",
         "gender": "masculine",
         "vocabSets": [
-            9
+            9,
+            11
         ]
     },
     "sensato": {
@@ -2225,7 +2310,8 @@ var WORDS = {
         ],
         "partOfSpeech": "adverb",
         "vocabSets": [
-            9
+            9,
+            11
         ]
     },
     "finalmente": {
@@ -2245,7 +2331,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            9
+            9,
+            11
         ]
     },
     "el campeón": {
@@ -2266,7 +2353,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "feminine",
         "vocabSets": [
-            9
+            9,
+            11
         ]
     },
     "la tela": {
@@ -2289,7 +2377,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "feminine",
         "vocabSets": [
-            9
+            9,
+            11
         ]
     },
     "la biblioteca": {
@@ -2355,7 +2444,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            9
+            9,
+            11
         ]
     },
     "el éxito": {
@@ -2376,7 +2466,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            10
+            10,
+            11
         ]
     },
     "ocioso": {
@@ -2388,7 +2479,20 @@ var WORDS = {
         "partOfSpeech": "adjective",
         "gender": "masculine",
         "vocabSets": [
-            10
+            10,
+            11
+        ]
+    },
+    "el ocio": {
+        "definitions": [
+            "the free time",
+            "the leisure"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSets": [
+            10,
+            11
         ]
     },
     "bárbaro": {
@@ -2400,7 +2504,8 @@ var WORDS = {
         "partOfSpeech": "adjective",
         "gender": "masculine",
         "vocabSets": [
-            10
+            10,
+            11
         ]
     },
     "vacío": {
@@ -2411,7 +2516,8 @@ var WORDS = {
         "partOfSpeech": "adjective",
         "gender": "masculine",
         "vocabSets": [
-            10
+            10,
+            11
         ]
     },
     "la vanguardia": {
@@ -2445,7 +2551,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            10
+            10,
+            11
         ]
     },
     "destacarse": {
@@ -2455,7 +2562,8 @@ var WORDS = {
         ],
         "partOfSpeech": "verb",
         "vocabSets": [
-            10
+            10,
+            11
         ]
     },
     "el mestizaje": {
@@ -2467,7 +2575,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            10
+            10,
+            11
         ]
     },
     "la mezcla": {
@@ -2479,7 +2588,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "feminine",
         "vocabSets": [
-            10
+            10,
+            11
         ]
     },
     "tener en cuenta": {
@@ -2489,7 +2599,8 @@ var WORDS = {
         ],
         "partOfSpeech": "phrase",
         "vocabSets": [
-            10
+            10,
+            11
         ]
     },
     "mimético": {
@@ -2499,7 +2610,8 @@ var WORDS = {
         "partOfSpeech": "adjective",
         "gender": "masculine",
         "vocabSets": [
-            10
+            10,
+            11
         ]
     }
 };
@@ -2507,7 +2619,7 @@ var currentWordObject;
 var currentWord;
 var wordCount = 0;
 var wordList = [];
-var vocabSetCount = 10; //Manually needs to be changed
+var vocabSetCount = 11; //Manually needs to be changed
 var gametype = "definition"; //What the user needs to answer with (definition or word)
 
 //Allows the user to choose from which set of Vocab Words to use
