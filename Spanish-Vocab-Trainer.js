@@ -121,7 +121,7 @@ var WORDS = {
         "definitions": [
             "the loud laugh"
         ],
-        "partOfSpeech": "adjective",
+        "partOfSpeech": "noun",
         "gender": "feminine",
         "vocabSets": [
             1,
