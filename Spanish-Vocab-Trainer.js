@@ -525,6 +525,7 @@ var WORDS = {
         "definitions": [
             "starting with"
         ],
+        "partOfSpeech": "phrase",
         "vocabSets": [
             2
         ]
@@ -536,6 +537,7 @@ var WORDS = {
             "on top",
             "ontop"
         ],
+        "partOfSpeech": "phrase",
         "vocabSets": [
             2
         ]
@@ -545,6 +547,7 @@ var WORDS = {
             "behind",
             "behind of"
         ],
+        "partOfSpeech": "phrase",
         "vocabSets": [
             2
         ]

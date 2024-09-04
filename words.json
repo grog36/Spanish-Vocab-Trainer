@@ -519,6 +519,7 @@
         "definitions": [
             "starting with"
         ],
+        "partOfSpeech": "phrase",
         "vocabSets": [
             2
         ]
@@ -530,6 +531,7 @@
             "on top",
             "ontop"
         ],
+        "partOfSpeech": "phrase",
         "vocabSets": [
             2
         ]
@@ -539,6 +541,7 @@
             "behind",
             "behind of"
         ],
+        "partOfSpeech": "phrase",
         "vocabSets": [
             2
         ]
