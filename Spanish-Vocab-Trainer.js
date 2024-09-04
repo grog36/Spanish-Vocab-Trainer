@@ -2597,7 +2597,7 @@ var WORDS = {
             "to keep in mind",
             "to take into account"
         ],
-        "partOfSpeech": "phrase",
+        "partOfSpeech": "verb",
         "vocabSets": [
             10,
             11
