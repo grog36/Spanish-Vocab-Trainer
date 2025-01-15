@@ -1660,7 +1660,7 @@ var WORDS = {
             "the roundness"
         ],
         "partOfSpeech": "noun",
-        "gender": "masculine",
+        "gender": "feminine",
         "vocabSets": [
             7,
             11
@@ -1762,7 +1762,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "feminine",
         "vocabSets": [
-            7
+            7,
+            12
         ]
     },
     "el ganado": {
@@ -2616,13 +2617,285 @@ var WORDS = {
             10,
             11
         ]
+    },
+    "aumentar": {
+        "definitions": [
+            "to increase"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            12
+        ]
+    },
+    "crecer": {
+        "definitions": [
+            "to grow (in size)",
+            "to grow"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            12
+        ]
+    },
+    "estimular": {
+        "definitions": [
+            "to stimulate"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            12
+        ]
+    },
+    "exigir": {
+        "definitions": [
+            "to demand"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            12
+        ]
+    },
+    "mejorar": {
+        "definitions": [
+            "to improve"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            12
+        ]
+    },
+    "actual": {
+        "definitions": [
+            "current"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSets": [
+            12
+        ]
+    },
+    "creciente": {
+        "definitions": [
+            "growing"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSets": [
+            12
+        ]
+    },
+    "extranjero": {
+        "definitions": [
+            "foreign",
+            "alien"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSets": [
+            12
+        ]
+    },
+    "fabricado": {
+        "definitions": [
+            "manufactured",
+            "made"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSets": [
+            12
+        ]
+    },
+    "interno": {
+        "definitions": [
+            "internal"
+        ],
+        "partOfSpeech": "adjective",
+        "gender": "masculine",
+        "vocabSets": [
+            12
+        ]
+    },
+    "el acción": {
+        "definitions": [
+            "the share (of a public company)",
+            "the stock",
+            "the share"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSets": [
+            12
+        ]
+    },
+    "el comercio": {
+        "definitions": [
+            "the trade"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSets": [
+            12
+        ]
+    },
+    "la computadora": {
+        "definitions": [
+            "the computer"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSets": [
+            12
+        ]
+    },
+    "el desempleo": {
+        "definitions": [
+            "the unemployment"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSets": [
+            12
+        ]
+    },
+    "la desigualdad": {
+        "definitions": [
+            "the inequality"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSets": [
+            12
+        ]
+    },
+    "la extranjera": {
+        "definitions": [
+            "the foreigner"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSets": [
+            12
+        ]
+    },
+    "el extranjero": {
+        "definitions": [
+            "abroad",
+            "outside of the country"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSets": [
+            12
+        ]
+    },
+    "el ingreso": {
+        "definitions": [
+            "the income"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSets": [
+            12
+        ]
+    },
+    "el intercambio": {
+        "definitions": [
+            "the interchange",
+            "the trade"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSets": [
+            12
+        ]
+    },
+    "la inversión": {
+        "definitions": [
+            "the investment"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSets": [
+            12
+        ]
+    },
+    "el negocio": {
+        "definitions": [
+            "the business"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSets": [
+            12
+        ]
+    },
+    "la obesidad": {
+        "definitions": [
+            "the obesity"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSets": [
+            12
+        ]
+    },
+    "la pobreza": {
+        "definitions": [
+            "the poverty"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSets": [
+            12
+        ]
+    },
+    "el promedio": {
+        "definitions": [
+            "the average"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSets": [
+            12
+        ]
+    },
+    "el propietario": {
+        "definitions": [
+            "the property owner"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSets": [
+            12
+        ]
+    },
+    "el psicólogo": {
+        "definitions": [
+            "the psychologist"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "masculine",
+        "vocabSets": [
+            12
+        ]
+    },
+    "la teoría": {
+        "definitions": [
+            "the theory"
+        ],
+        "partOfSpeech": "noun",
+        "gender": "feminine",
+        "vocabSets": [
+            12
+        ]
     }
 };
 var currentWordObject;
 var currentWord;
 var wordCount = 0;
 var wordList = [];
-var vocabSetCount = 11; //Manually needs to be changed
+var vocabSetCount = 12; //Manually needs to be changed
 var gametype = "definition"; //What the user needs to answer with (definition or word)
 
 //Allows the user to choose from which set of Vocab Words to use
