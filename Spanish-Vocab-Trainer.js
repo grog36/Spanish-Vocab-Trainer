@@ -2981,7 +2981,7 @@ var WORDS = {
             13
         ]
     },
-    "l;a maestra": {
+    "la maestra": {
         "definitions": [
             "the teacher"
         ],
