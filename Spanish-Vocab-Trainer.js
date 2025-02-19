@@ -660,7 +660,8 @@ var WORDS = {
         "partOfSpeech": "verb",
         "vocabSets": [
             2,
-            11
+            11,
+            13
         ]
     },
     "evitar": {
@@ -2161,7 +2162,8 @@ var WORDS = {
         "partOfSpeech": "adjective",
         "gender": "masculine",
         "vocabSets": [
-            9
+            9,
+            13
         ]
     },
     "la propina": {
@@ -2889,13 +2891,254 @@ var WORDS = {
         "vocabSets": [
             12
         ]
+    },
+    "contratar": {
+        "definitions": [
+            "to contract"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            13
+        ]
+    },
+    "convenir": {
+        "definitions": [
+            "to suit"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            13
+        ]
+    },
+    "dar una clase": {
+        "definitions": [
+            "to teach",
+            "to lecture"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            13
+        ]
+    },
+    "diferir": {
+        "definitions": [
+            "to differ",
+            "to be different"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            13
+        ]
+    },
+    "especializarse": {
+        "definitions": [
+            "to major",
+            "to specialize"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            13
+        ]
+    },
+    "la asistencia": {
+        "definitions": [
+            "the attendance"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            13
+        ]
+    },
+    "la elección": {
+        "definitions": [
+            "the choice"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            13
+        ]
+    },
+    "la instrucción": {
+        "definitions": [
+            "the instruction",
+            "the teaching"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            13
+        ]
+    },
+    "la investigación": {
+        "definitions": [
+            "the rsearch"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            13
+        ]
+    },
+    "l;a maestra": {
+        "definitions": [
+            "the teacher"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            13
+        ]
+    },
+    "la manifestación": {
+        "definitions": [
+            "the demonstration"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            13
+        ]
+    },
+    "la matrícula": {
+        "definitions": [
+            "the tuition"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            13
+        ]
+    },
+    "la nota": {
+        "definitions": [
+            "the grade"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            13
+        ]
+    },
+    "el título": {
+        "definitions": [
+            "the degree (education)",
+            "the degree"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            13
+        ]
+    },
+    "educativo": {
+        "definitions": [
+            "educational"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "adjective",
+        "vocabSets": [
+            13
+        ]
+    },
+    "escolar": {
+        "definitions": [
+            "pertaining to school"
+        ],
+        "gender": "N/A",
+        "partOfSpeech": "adjective",
+        "vocabSets": [
+            13
+        ]
+    },
+    "estudiantil": {
+        "definitions": [
+            "pertaining to students"
+        ],
+        "gender": "N/A",
+        "partOfSpeech": "adjective",
+        "vocabSets": [
+            13
+        ]
+    },
+    "explícito": {
+        "definitions": [
+            "explicit"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "adjective",
+        "vocabSets": [
+            13
+        ]
+    },
+    "implícito": {
+        "definitions": [
+            "implicit"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "adjective",
+        "vocabSets": [
+            13
+        ]
+    },
+    "particular": {
+        "definitions": [
+            "private"
+        ],
+        "gender": "N/A",
+        "partOfSpeech": "adjective",
+        "vocabSets": [
+            13
+        ]
+    },
+    "primario": {
+        "definitions": [
+            "primary"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "adjective",
+        "vocabSets": [
+            13
+        ]
+    },
+    "privado": {
+        "definitions": [
+            "private"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "adjective",
+        "vocabSets": [
+            13
+        ]
+    },
+    "secundario": {
+        "definitions": [
+            "secondary",
+            "high school"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "adjective",
+        "vocabSets": [
+            13
+        ]
+    },
+    "superior": {
+        "definitions": [
+            "higher"
+        ],
+        "gender": "N/A",
+        "partOfSpeech": "adjective",
+        "vocabSets": [
+            13
+        ]
     }
 };
 var currentWordObject;
 var currentWord;
 var wordCount = 0;
 var wordList = [];
-var vocabSetCount = 12; //Manually needs to be changed
+var vocabSetCount = 13; //Manually needs to be changed
 var gametype = "definition"; //What the user needs to answer with (definition or word)
 
 //Allows the user to choose from which set of Vocab Words to use
