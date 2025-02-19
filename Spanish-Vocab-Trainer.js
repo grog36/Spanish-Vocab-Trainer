@@ -2973,7 +2973,7 @@ var WORDS = {
     },
     "la investigación": {
         "definitions": [
-            "the rsearch"
+            "the research"
         ],
         "gender": "feminine",
         "partOfSpeech": "noun",
