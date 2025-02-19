@@ -3207,7 +3207,8 @@ function nextQuestion() {
         }
         else if (gametype === "word") {
             let newQuestionText = "(" + currentWordObject[currentWord]["partOfSpeech"];
-            if (currentWordObject[currentWord]["partOfSpeech"] === "adjective") {
+            if (currentWordObject[currentWord]["partOfSpeech"] === "adjective" ||
+                currentWordObject[currentWord]["partOfSpeech"] === "noun") {
                 if (currentWordObject[currentWord]["gender"] === "feminine" || currentWordObject[currentWord]["gender"] === "masculine") {
                     newQuestionText += ", " + currentWordObject[currentWord]["gender"];
                 }
