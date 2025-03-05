@@ -364,7 +364,8 @@ var WORDS = {
         "partOfSpeech": "noun",
         "gender": "masculine",
         "vocabSets": [
-            1
+            1,
+            14
         ]
     },
     "agridulce": {
@@ -3132,13 +3133,288 @@ var WORDS = {
         "vocabSets": [
             13
         ]
+    },
+    "almorzar": {
+        "definitions": [
+            "to eat lunch"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            14
+        ]
+    },
+    "asociar": {
+        "definitions": [
+            "to associate"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            14
+        ]
+    },
+    "atraer": {
+        "definitions": [
+            "to attract"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            14
+        ]
+    },
+    "fundar": {
+        "definitions": [
+            "to found",
+            "to create"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            14
+        ]
+    },
+    "provinir de": {
+        "definitions": [
+            "to come from"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            14
+        ]
+    },
+    "reunirse": {
+        "definitions": [
+            "to meet",
+            "to join with"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            14
+        ]
+    },
+    "rodear": {
+        "definitions": [
+            "to surround"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            14
+        ]
+    },
+    "el almuerzo": {
+        "definitions": [
+            "the lunch"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            14
+        ]
+    },
+    "el banco": {
+        "definitions": [
+            "the bank",
+            "the bench"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            14
+        ]
+    },
+    "el barrio": {
+        "definitions": [
+            "the neighborhood",
+            "the area of a city"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            14
+        ]
+    },
+    "la basura": {
+        "definitions": [
+            "the trash",
+            "the garbage"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            14
+        ]
+    },
+    "el centro": {
+        "definitions": [
+            "the center",
+            "the downtown"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "masculine",
+        "vocabSets": [
+            14
+        ]
+    },
+    "la compra": {
+        "definitions": [
+            "the purchase"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "feminine",
+        "vocabSets": [
+            14
+        ]
+    },
+    "hacer compras": {
+        "definitions": [
+            "to shop"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            14
+        ]
+    },
+    "ir de compras": {
+        "definitions": [
+            "to go shopping"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            14
+        ]
+    },
+    "la esquina": {
+        "definitions": [
+            "the corner",
+            "the corner (outside)"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            14
+        ]
+    },
+    "el lazo": {
+        "definitions": [
+            "the connection",
+            "the tie"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            14
+        ]
+    },
+    "el museo": {
+        "definitions": [
+            "the museum"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            14
+        ]
+    },
+    "el núcleo": {
+        "definitions": [
+            "the nucleus",
+            "the center"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            14
+        ]
+    },
+    "el piso": {
+        "definitions": [
+            "the floor",
+            "the story (of a building)",
+            "the story"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            14
+        ]
+    },
+    "la población": {
+        "definitions": [
+            "the population"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            14
+        ]
+    },
+    "el recuerdo": {
+        "definitions": [
+            "the memory"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            14
+        ]
+    },
+    "la soledad": {
+        "definitions": [
+            "the solitude",
+            "the loneliness"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            14
+        ]
+    },
+    "el usario": {
+        "definitions": [
+            "the user (especially of computers)",
+            "the user"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            14
+        ]
+    },
+    "la vecina": {
+        "definitions": [
+            "the neighbor"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            14
+        ]
+    },
+    "antiguo": {
+        "definitions": [
+            "old",
+            "antique"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "adjective",
+        "vocabSets": [
+            14
+        ]
+    },
+    "campstre": {
+        "definitions": [
+            "rural"
+        ],
+        "gender": "N/A",
+        "partOfSpeech": "adjective",
+        "vocabSets": [
+            14
+        ]
     }
 };
 var currentWordObject;
 var currentWord;
 var wordCount = 0;
 var wordList = [];
-var vocabSetCount = 13; //Manually needs to be changed
+var vocabSetCount = 14; //Manually needs to be changed
 var gametype = "definition"; //What the user needs to answer with (definition or word)
 
 //Allows the user to choose from which set of Vocab Words to use
