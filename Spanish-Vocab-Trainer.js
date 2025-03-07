@@ -3399,7 +3399,7 @@ var WORDS = {
             14
         ]
     },
-    "campstre": {
+    "campestre": {
         "definitions": [
             "rural"
         ],
