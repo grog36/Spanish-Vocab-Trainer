@@ -1181,7 +1181,8 @@ var WORDS = {
         "partOfSpeech": "verb",
         "vocabSets": [
             5,
-            11
+            11,
+            15
         ]
     },
     "la vivienda": {
@@ -3408,13 +3409,271 @@ var WORDS = {
         "vocabSets": [
             14
         ]
+    },
+    "amenazar": {
+        "definitions": [
+            "to threaten"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            15
+        ]
+    },
+    "caracterizar": {
+        "definitions": [
+            "to characterize"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            15
+        ]
+    },
+    "compartir": {
+        "definitions": [
+            "to share"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            15
+        ]
+    },
+    "conseguir": {
+        "definitions": [
+            "to acquire",
+            "to get"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            15
+        ]
+    },
+    "enfrentarse a": {
+        "definitions": [
+            "to confront",
+            "to face"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            15
+        ]
+    },
+    "firmar": {
+        "definitions": [
+            "to sign"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            15
+        ]
+    },
+    "imponer": {
+        "definitions": [
+            "to impose",
+            "to force on"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            15
+        ]
+    },
+    "lograr": {
+        "definitions": [
+            "to manage",
+            "to achieve",
+            "to get"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            15
+        ]
+    },
+    "proclamar": {
+        "definitions": [
+            "to proclaim",
+            "to announce"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            15
+        ]
+    },
+    "rechazar": {
+        "definitions": [
+            "to reject",
+            "to refuse"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            15
+        ]
+    },
+    "reconocer": {
+        "definitions": [
+            "to recognize"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            15
+        ]
+    },
+    "el acuerdo": {
+        "definitions": [
+            "the accord",
+            "the agreement"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            15
+        ]
+    },
+    "ponerse de acuerdo": {
+        "definitions": [
+            "to reach an agreement"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            15
+        ]
+    },
+    "la amenaza": {
+        "definitions": [
+            "the threat"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            15
+        ]
+    },
+    "la amistad": {
+        "definitions": [
+            "the friendship"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            15
+        ]
+    },
+    "el ciudadano": {
+        "definitions": [
+            "the citizen"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            15
+        ]
+    },
+    "la enemistad": {
+        "definitions": [
+            "the emnity"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            15
+        ]
+    },
+    "el peligro": {
+        "definitions": [
+            "the danger"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            15
+        ]
+    },
+    "la pérdida": {
+        "definitions": [
+            "the loss"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            15
+        ]
+    },
+    "el político": {
+        "definitions": [
+            "the politican"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            15
+        ]
+    },
+    "la política": {
+        "definitions": [
+            "the politics"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            15
+        ]
+    },
+    "el tratado": {
+        "definitions": [
+            "the treaty"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            15
+        ]
+    },
+    "aliado": {
+        "definitions": [
+            "allied",
+            "ally"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "adjective",
+        "vocabSets": [
+            15
+        ]
+    },
+    "mutuo": {
+        "definitions": [
+            "mutual"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "adjective",
+        "vocabSets": [
+            15
+        ]
+    },
+    "político": {
+        "definitions": [
+            "political"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "adjective",
+        "vocabSets": [
+            15
+        ]
+    },
+    "verse obligado a": {
+        "definitions": [
+            "to have to (do something)",
+            "to have to do something",
+            "to have to"
+        ],
+        "partOfSpeech": "phrase",
+        "vocabSets": [
+            15
+        ]
     }
 };
 var currentWordObject;
 var currentWord;
 var wordCount = 0;
 var wordList = [];
-var vocabSetCount = 14; //Manually needs to be changed
+var vocabSetCount = 15; //Manually needs to be changed
 var gametype = "definition"; //What the user needs to answer with (definition or word)
 
 //Allows the user to choose from which set of Vocab Words to use
