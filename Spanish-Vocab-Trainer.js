@@ -1901,7 +1901,8 @@ var WORDS = {
         "gender": "feminine",
         "vocabSets": [
             8,
-            11
+            11,
+            16
         ]
     },
     "arrastrar": {
@@ -3667,13 +3668,340 @@ var WORDS = {
         "vocabSets": [
             15
         ]
+    },
+    "aceptar": {
+        "definitions": [
+            "to accept"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            16
+        ]
+    },
+    "aprovechar": {
+        "definitions": [
+            "to make good use of",
+            "to make use of"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            16
+        ]
+    },
+    "aspirar": {
+        "definitions": [
+            "to aspire"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            16
+        ]
+    },
+    "criticar": {
+        "definitions": [
+            "to criticize"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            16
+        ]
+    },
+    "denunciar": {
+        "definitions": [
+            "to report",
+            "to turn in"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            16
+        ]
+    },
+    "emigrar": {
+        "definitions": [
+            "to emigrate"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            16
+        ]
+    },
+    "exiliarse": {
+        "definitions": [
+            "to go into exile"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            16
+        ]
+    },
+    "mantener": {
+        "definitions": [
+            "to maintain",
+            "to support",
+            "to keep up with"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            16
+        ]
+    },
+    "transmitir": {
+        "definitions": [
+            "to transmit"
+        ],
+        "partOfSpeech": "verb",
+        "vocabSets": [
+            16
+        ]
+    },
+    "el acento": {
+        "definitions": [
+            "the accent"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            16
+        ]
+    },
+    "el apellido": {
+        "definitions": [
+            "the last name"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            16
+        ]
+    },
+    "el asentamiento": {
+        "definitions": [
+            "the settlement"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            16
+        ]
+    },
+    "el asilo político": {
+        "definitions": [
+            "the political asylum"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            16
+        ]
+    },
+    "la barrera": {
+        "definitions": [
+            "the barrier"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            16
+        ]
+    },
+    "el choque cultural": {
+        "definitions": [
+            "the culture shock"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            16
+        ]
+    },
+    "la controversia": {
+        "definitions": [
+            "the controversy"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            16
+        ]
+    },
+    "los derechos humanos": {
+        "definitions": [
+            "the human rights"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            16
+        ]
+    },
+    "la discriminación": {
+        "definitions": [
+            "the discrimination"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            16
+        ]
+    },
+    "la enculturación": {
+        "definitions": [
+            "the enculturation"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            16
+        ]
+    },
+    "la entonación": {
+        "definitions": [
+            "the intonation"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            16
+        ]
+    },
+    "el idioma": {
+        "definitions": [
+            "the language"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            16
+        ]
+    },
+    "la inmigración": {
+        "definitions": [
+            "the immigration"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            16
+        ]
+    },
+    "la lengua": {
+        "definitions": [
+            "the tongue",
+            "the language"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            16
+        ]
+    },
+    "el lenguaje": {
+        "definitions": [
+            "the means of communication",
+            "the language",
+            "the speech"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            16
+        ]
+    },
+    "el modismo": {
+        "definitions": [
+            "the idiom"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            16
+        ]
+    },
+    "el mural": {
+        "definitions": [
+            "the mural"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            16
+        ]
+    },
+    "la reforma migratoria": {
+        "definitions": [
+            "the immigration reform"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            16
+        ]
+    },
+    "la tradición": {
+        "definitions": [
+            "the tradition"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            16
+        ]
+    },
+    "la variente": {
+        "definitions": [
+            "the variant"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            16
+        ]
+    },
+    "la vergüenza": {
+        "definitions": [
+            "the embarrassment"
+        ],
+        "gender": "feminine",
+        "partOfSpeech": "noun",
+        "vocabSets": [
+            16
+        ]
+    },
+    "coloquial": {
+        "definitions": [
+            "colloquial"
+        ],
+        "gender": "N/A",
+        "partOfSpeech": "adjective",
+        "vocabSets": [
+            16
+        ]
+    },
+    "poblado": {
+        "definitions": [
+            "populated"
+        ],
+        "gender": "masculine",
+        "partOfSpeech": "adjective",
+        "vocabSets": [
+            16
+        ]
+    },
+    "proveniente de": {
+        "definitions": [
+            "from"
+        ],
+        "partOfSpeech": "phrase",
+        "vocabSets": [
+            16
+        ]
     }
 };
 var currentWordObject;
 var currentWord;
 var wordCount = 0;
 var wordList = [];
-var vocabSetCount = 15; //Manually needs to be changed
+var vocabSetCount = 16; //Manually needs to be changed
 var gametype = "definition"; //What the user needs to answer with (definition or word)
 
 //Allows the user to choose from which set of Vocab Words to use
